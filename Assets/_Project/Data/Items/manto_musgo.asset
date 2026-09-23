@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d862e02d797b2ce4498665af8f348a95, type: 3}
+  m_Name: manto_musgo
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.ItemDefinition
+  id: manto_musgo
+  displayName: Manto de Musgo
+  description: 'Leve: +12% de velocidade e recarga de artefatos mais curta.'
+  kind: 2
+  rarity: 1
+  icon: {fileID: 21300000, guid: a7d4623e16545d640aac31974396f247, type: 3}
+  worldMesh: {fileID: 4300000, guid: ce96f3fd398d3a64f8380fe96e5f7f0b, type: 2}
+  worldMaterial: {fileID: 2100000, guid: 0be35ab755e4b204481522d70a3d3c56, type: 2}
+  holdOffset: {x: 0, y: 0, z: 0}
+  holdEuler: {x: 0, y: 0, z: 0}
+  holdScale: 1
+  combo: []
+  meleeDamage: 10
+  projectile: {fileID: 0}
+  rangedDamage: 8
+  drawTime: 0.3
+  fireCooldown: 0.3
+  projectilesPerShot: 1
+  spreadDegrees: 0
+  healthBonus: 10
+  damageReduction: 0.05
+  moveSpeedBonus: 0.12
+  cooldownReduction: 0
+  armorTint: {r: 1, g: 1, b: 1, a: 1}
+  armorSkinIndex: 0
+  artifact: {fileID: 0}
+  enchantments:
+  - {fileID: 11400000, guid: 1d9219497ee9132469abdc143fa9e0e8, type: 2}
+  emeraldValue: 14

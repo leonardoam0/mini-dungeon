@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78db34492472ecd44a4b940c8ac9dd31, type: 3}
+  m_Name: nuvem_toxica
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.EnchantmentDefinition
+  id: nuvem_toxica
+  displayName: "Nuvem T\xF3xica"
+  description: 35% de chance (recarga 3 s) de criar uma nuvem venenosa no alvo.
+  kind: 1
+  value: 0
+  chance: 0.35
+  cooldown: 3
+  status:
+    effect: {fileID: 0}
+    duration: 0
+    chance: 0
+    potency: 0
+  area:
+    enabled: 1
+    radius: 1.9
+    duration: 3
+    tickInterval: 0.5
+    damagePerTick: 5
+    kind: 3
+    status:
+      effect: {fileID: 0}
+      duration: 0
+      chance: 0
+      potency: 0
+    visualKey: cloud_green
+    hostileTint: 0

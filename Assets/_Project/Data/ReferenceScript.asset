@@ -1,0 +1,558 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb9d7c749c91d34a8ee084f58aa237a, type: 3}
+  m_Name: ReferenceScript
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.ReferenceScript
+  duration: 14.6
+  seed: 88
+  playerStartLocal: {x: 2.78, y: 0, z: -0.38}
+  playerStartYaw: 250
+  actors:
+  - enemy: {fileID: 11400000, guid: 3ad7deae6ca10ea40a43e3eaa4bf0205, type: 2}
+    companion: 0
+    localPosition: {x: 1.6, y: 0, z: -1.9}
+    yaw: 60
+    startStatus: {fileID: 0}
+    statusDuration: 3
+    holdUntil: 0
+  - enemy: {fileID: 11400000, guid: 3ad7deae6ca10ea40a43e3eaa4bf0205, type: 2}
+    companion: 0
+    localPosition: {x: -3.8, y: 0, z: 1}
+    yaw: 90
+    startStatus: {fileID: 11400000, guid: 37a3a05b7ece57846a1d6387ecb992b5, type: 2}
+    statusDuration: 3
+    holdUntil: 0.6
+  - enemy: {fileID: 11400000, guid: 3ad7deae6ca10ea40a43e3eaa4bf0205, type: 2}
+    companion: 0
+    localPosition: {x: -3.4, y: 0, z: 6.2}
+    yaw: 150
+    startStatus: {fileID: 0}
+    statusDuration: 3
+    holdUntil: 1.4
+  - enemy: {fileID: 11400000, guid: 3ad7deae6ca10ea40a43e3eaa4bf0205, type: 2}
+    companion: 0
+    localPosition: {x: 2.9, y: 0, z: 3.3}
+    yaw: 225
+    startStatus: {fileID: 0}
+    statusDuration: 3
+    holdUntil: 2.8
+  - enemy: {fileID: 11400000, guid: 537a8a1df0de36b45b7056ec7c88a404, type: 2}
+    companion: 0
+    localPosition: {x: 4.8, y: 0, z: 5.6}
+    yaw: 225
+    startStatus: {fileID: 0}
+    statusDuration: 3
+    holdUntil: 1.5
+  - enemy: {fileID: 0}
+    companion: 1
+    localPosition: {x: 3.6, y: 0, z: -1.8}
+    yaw: 250
+    startStatus: {fileID: 0}
+    statusDuration: 3
+    holdUntil: 0
+  input:
+  - time: 0
+    move: {x: 0, y: 0}
+    hasAim: 0
+    aimLocal: {x: 0, y: 0, z: 0}
+    pressed: 16
+    held: 0
+  - time: 0.45
+    move: {x: 0, y: 0}
+    hasAim: 1
+    aimLocal: {x: 0.9, y: 0, z: 0.3}
+    pressed: 8
+    held: 0
+  - time: 1.1
+    move: {x: 0, y: 0}
+    hasAim: 1
+    aimLocal: {x: -4.57, y: 0, z: 5.39}
+    pressed: 32
+    held: 0
+  - time: 2.15
+    move: {x: 0, y: 0}
+    hasAim: 1
+    aimLocal: {x: -3.4, y: 0, z: 6.3}
+    pressed: 1
+    held: 0
+  - time: 2.4
+    move: {x: 0, y: 0}
+    hasAim: 1
+    aimLocal: {x: -3.3, y: 0, z: 6.4}
+    pressed: 1
+    held: 0
+  - time: 2.65
+    move: {x: 0, y: 0}
+    hasAim: 1
+    aimLocal: {x: -3.2, y: 0, z: 6.3}
+    pressed: 1
+    held: 0
+  - time: 2.9
+    move: {x: 0, y: 0}
+    hasAim: 0
+    aimLocal: {x: 0, y: 0, z: 0}
+    pressed: 0
+    held: 0
+  - time: 6.4
+    move: {x: 0, y: 0}
+    hasAim: 0
+    aimLocal: {x: 0, y: 0, z: 0}
+    pressed: 4
+    held: 0
+  - time: 11.28
+    move: {x: 0, y: 0}
+    hasAim: 1
+    aimLocal: {x: -0.2, y: 0, z: 2.6}
+    pressed: 1
+    held: 0
+  - time: 12.02
+    move: {x: 0, y: 0}
+    hasAim: 1
+    aimLocal: {x: -0.2, y: 0, z: 1.6}
+    pressed: 1
+    held: 0
+  - time: 12.4
+    move: {x: 0, y: 0}
+    hasAim: 0
+    aimLocal: {x: 0, y: 0, z: 0}
+    pressed: 0
+    held: 0
+  - time: 14.6
+    move: {x: 0, y: 0}
+    hasAim: 0
+    aimLocal: {x: 0, y: 0, z: 0}
+    pressed: 0
+    held: 0
+  events:
+  - time: 0.28
+    kind: 8
+    localPosition: {x: 3.2, y: 0, z: 3.4}
+    duration: 0.35
+    text: 
+  - time: 0.28
+    kind: 8
+    localPosition: {x: -4.5, y: 0, z: 0.7}
+    duration: 0.4
+    text: 
+  - time: 0.3
+    kind: 7
+    localPosition: {x: 0, y: 0, z: 0}
+    duration: 0.22
+    text: 
+  - time: 0.5
+    kind: 0
+    localPosition: {x: 0, y: 0, z: 0}
+    duration: 0.62
+    text: 
+  - time: 0.85
+    kind: 4
+    localPosition: {x: 0.6, y: 0, z: 0.4}
+    duration: 1.8
+    text: 
+  - time: 0.88
+    kind: 4
+    localPosition: {x: 2, y: 0, z: 1.9}
+    duration: 1.7
+    text: 
+  - time: 0.92
+    kind: 4
+    localPosition: {x: -1.1, y: 0, z: 2.2}
+    duration: 1.6
+    text: 
+  - time: 1
+    kind: 4
+    localPosition: {x: 1.6, y: 0, z: -1}
+    duration: 1.5
+    text: 
+  - time: 5.55
+    kind: 8
+    localPosition: {x: 1.6, y: 0, z: 4.8}
+    duration: 0.35
+    text: 
+  - time: 5.58
+    kind: 7
+    localPosition: {x: 0, y: 0, z: 0}
+    duration: 0.22
+    text: 
+  - time: 5.8
+    kind: 0
+    localPosition: {x: 0, y: 0, z: 0}
+    duration: 0.62
+    text: 
+  - time: 6.85
+    kind: 9
+    localPosition: {x: -4.1, y: 0, z: 2.8}
+    duration: 1
+    text: 
+  - time: 7.25
+    kind: 4
+    localPosition: {x: -3.6, y: 0, z: 2.4}
+    duration: 2.2
+    text: 
+  - time: 7.35
+    kind: 4
+    localPosition: {x: -2.2, y: 0, z: 3.4}
+    duration: 2.2
+    text: 
+  - time: 7.45
+    kind: 4
+    localPosition: {x: -1, y: 0, z: 0.8}
+    duration: 2
+    text: 
+  - time: 8.3
+    kind: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    duration: 1
+    text: 
+  - time: 9
+    kind: 2
+    localPosition: {x: 0, y: 0, z: 0}
+    duration: 1
+    text: 
+  - time: 10.95
+    kind: 11
+    localPosition: {x: 0, y: 0, z: 0}
+    duration: 1
+    text: Resolving
+  - time: 11.85
+    kind: 11
+    localPosition: {x: 0, y: 0, z: 0}
+    duration: 1
+    text: Cleared
+  - time: 11.9
+    kind: 10
+    localPosition: {x: 6.3, y: 3, z: 6.4}
+    duration: 1
+    text: 
+  - time: 13
+    kind: 12
+    localPosition: {x: -7.4, y: 0, z: 3.5}
+    duration: 1
+    text: pocao_rapidez
+  - time: 14.5
+    kind: 6
+    localPosition: {x: 0, y: 0, z: 0}
+    duration: 1
+    text: fim do trecho
+  path:
+  - time: 0
+    local: {x: 2.78, y: 0, z: -0.38}
+  - time: 0.1
+    local: {x: 3.32, y: 0, z: -0.1}
+  - time: 0.2
+    local: {x: 3.63, y: 0, z: 0.23}
+  - time: 0.3
+    local: {x: 3.24, y: 0, z: 0.05}
+  - time: 0.4
+    local: {x: 2.53, y: 0, z: -0.37}
+  - time: 0.5
+    local: {x: 1.72, y: 0, z: -0.64}
+  - time: 0.6
+    local: {x: 0.88, y: 0, z: -0.34}
+  - time: 0.7
+    local: {x: 0.22, y: 0, z: 0.46}
+  - time: 0.8
+    local: {x: -0.21, y: 0, z: 1.13}
+  - time: 0.90000004
+    local: {x: -0.34, y: 0, z: 1.28}
+  - time: 1
+    local: {x: -0.4, y: 0, z: 1.32}
+  - time: 1.1
+    local: {x: -0.63, y: 0, z: 1.52}
+  - time: 1.2
+    local: {x: -1.39, y: 0, z: 2.32}
+  - time: 1.3000001
+    local: {x: -2.56, y: 0, z: 3.58}
+  - time: 1.4
+    local: {x: -3.73, y: 0, z: 4.78}
+  - time: 1.5
+    local: {x: -4.78, y: 0, z: 5.54}
+  - time: 1.6
+    local: {x: -5, y: 0, z: 5.31}
+  - time: 1.7
+    local: {x: -4.44, y: 0, z: 5.04}
+  - time: 1.8000001
+    local: {x: -3.69, y: 0, z: 5.2}
+  - time: 1.9
+    local: {x: -2.93, y: 0, z: 5.43}
+  - time: 2
+    local: {x: -2.32, y: 0, z: 5.61}
+  - time: 2.1000001
+    local: {x: -2.19, y: 0, z: 5.67}
+  - time: 2.2
+    local: {x: -2.22, y: 0, z: 5.7}
+  - time: 2.3
+    local: {x: -2.07, y: 0, z: 5.76}
+  - time: 2.4
+    local: {x: -1.79, y: 0, z: 5.81}
+  - time: 2.5
+    local: {x: -1.77, y: 0, z: 5.78}
+  - time: 2.6000001
+    local: {x: -1.79, y: 0, z: 5.73}
+  - time: 2.7
+    local: {x: -1.49, y: 0, z: 5.71}
+  - time: 2.8
+    local: {x: -0.61, y: 0, z: 5.7}
+  - time: 2.9
+    local: {x: 0.28, y: 0, z: 5.4}
+  - time: 3
+    local: {x: 0.95, y: 0, z: 4.77}
+  - time: 3.1000001
+    local: {x: 1.28, y: 0, z: 4}
+  - time: 3.2
+    local: {x: 0.95, y: 0, z: 3.36}
+  - time: 3.3
+    local: {x: 0.15, y: 0, z: 2.97}
+  - time: 3.4
+    local: {x: -0.76, y: 0, z: 2.68}
+  - time: 3.5
+    local: {x: -1.57, y: 0, z: 2.67}
+  - time: 3.6000001
+    local: {x: -1.87, y: 0, z: 3.19}
+  - time: 3.7
+    local: {x: -1.65, y: 0, z: 3.82}
+  - time: 3.8
+    local: {x: -0.98, y: 0, z: 4}
+  - time: 3.9
+    local: {x: -0.42, y: 0, z: 3.41}
+  - time: 4
+    local: {x: -0.51, y: 0, z: 2.62}
+  - time: 4.1
+    local: {x: -0.92, y: 0, z: 1.98}
+  - time: 4.2000003
+    local: {x: -1.3, y: 0, z: 1.35}
+  - time: 4.3
+    local: {x: -1.27, y: 0, z: 0.6}
+  - time: 4.4
+    local: {x: -0.9, y: 0, z: -0.17}
+  - time: 4.5
+    local: {x: -0.34, y: 0, z: -0.82}
+  - time: 4.6
+    local: {x: 0.36, y: 0, z: -1.04}
+  - time: 4.7000003
+    local: {x: 0.97, y: 0, z: -0.8}
+  - time: 4.8
+    local: {x: 1.49, y: 0, z: -0.37}
+  - time: 4.9
+    local: {x: 1.76, y: 0, z: 0.11}
+  - time: 5
+    local: {x: 1.45, y: 0, z: 0.27}
+  - time: 5.1
+    local: {x: 0.77, y: 0, z: 0.21}
+  - time: 5.2000003
+    local: {x: 0.06, y: 0, z: 0.18}
+  - time: 5.3
+    local: {x: -0.59, y: 0, z: 0.54}
+  - time: 5.4
+    local: {x: -1, y: 0, z: 1.25}
+  - time: 5.5
+    local: {x: -1.03, y: 0, z: 1.98}
+  - time: 5.6
+    local: {x: -0.69, y: 0, z: 2.53}
+  - time: 5.7000003
+    local: {x: -0.04, y: 0, z: 2.85}
+  - time: 5.8
+    local: {x: 0.53, y: 0, z: 2.65}
+  - time: 5.9
+    local: {x: 0.6, y: 0, z: 2.47}
+  - time: 6
+    local: {x: 0.36, y: 0, z: 2.43}
+  - time: 6.1
+    local: {x: -0.11, y: 0, z: 2.18}
+  - time: 6.2000003
+    local: {x: -0.81, y: 0, z: 1.92}
+  - time: 6.3
+    local: {x: -1.71, y: 0, z: 1.93}
+  - time: 6.4
+    local: {x: -2.7, y: 0, z: 2.21}
+  - time: 6.5
+    local: {x: -4.33, y: 0, z: 2.76}
+  - time: 6.6
+    local: {x: -6.37, y: 0, z: 3.43}
+  - time: 6.7000003
+    local: {x: -8.05, y: 0, z: 4.1}
+  - time: 6.8
+    local: {x: -9.52, y: 0, z: 4.65}
+  - time: 6.9
+    local: {x: -10.51, y: 0, z: 4.68}
+  - time: 7
+    local: {x: -10.55, y: 0, z: 4.31}
+  - time: 7.1
+    local: {x: -10.2, y: 0, z: 3.93}
+  - time: 7.2000003
+    local: {x: -9.69, y: 0, z: 3.79}
+  - time: 7.3
+    local: {x: -9.12, y: 0, z: 3.82}
+  - time: 7.4
+    local: {x: -8.54, y: 0, z: 3.88}
+  - time: 7.5
+    local: {x: -7.97, y: 0, z: 3.95}
+  - time: 7.6
+    local: {x: -7.36, y: 0, z: 4.03}
+  - time: 7.7000003
+    local: {x: -6.79, y: 0, z: 4.12}
+  - time: 7.8
+    local: {x: -6.4, y: 0, z: 4.18}
+  - time: 7.9
+    local: {x: -6.31, y: 0, z: 4.19}
+  - time: 8
+    local: {x: -6.27, y: 0, z: 4.17}
+  - time: 8.1
+    local: {x: -6.02, y: 0, z: 4.02}
+  - time: 8.2
+    local: {x: -5.54, y: 0, z: 3.63}
+  - time: 8.3
+    local: {x: -5.19, y: 0, z: 3.1}
+  - time: 8.400001
+    local: {x: -5.08, y: 0, z: 2.48}
+  - time: 8.5
+    local: {x: -5.16, y: 0, z: 1.91}
+  - time: 8.6
+    local: {x: -5.05, y: 0, z: 1.8}
+  - time: 8.7
+    local: {x: -4.57, y: 0, z: 1.97}
+  - time: 8.8
+    local: {x: -3.91, y: 0, z: 1.94}
+  - time: 8.900001
+    local: {x: -3.3, y: 0, z: 1.7}
+  - time: 9
+    local: {x: -2.89, y: 0, z: 1.22}
+  - time: 9.1
+    local: {x: -3.02, y: 0, z: 0.79}
+  - time: 9.2
+    local: {x: -3.33, y: 0, z: 0.99}
+  - time: 9.3
+    local: {x: -3.25, y: 0, z: 1.42}
+  - time: 9.400001
+    local: {x: -2.8, y: 0, z: 1.5}
+  - time: 9.5
+    local: {x: -2.47, y: 0, z: 1.09}
+  - time: 9.6
+    local: {x: -2.71, y: 0, z: 0.83}
+  - time: 9.7
+    local: {x: -2.93, y: 0, z: 1.17}
+  - time: 9.8
+    local: {x: -2.6, y: 0, z: 1.31}
+  - time: 9.900001
+    local: {x: -2.11, y: 0, z: 0.97}
+  - time: 10
+    local: {x: -1.98, y: 0, z: 0.48}
+  - time: 10.1
+    local: {x: -2.33, y: 0, z: 0.37}
+  - time: 10.2
+    local: {x: -2.41, y: 0, z: 0.66}
+  - time: 10.3
+    local: {x: -1.96, y: 0, z: 0.74}
+  - time: 10.400001
+    local: {x: -1.44, y: 0, z: 0.53}
+  - time: 10.5
+    local: {x: -1.35, y: 0, z: 0.13}
+  - time: 10.6
+    local: {x: -1.8, y: 0, z: -0.03}
+  - time: 10.7
+    local: {x: -2.29, y: 0, z: 0.22}
+  - time: 10.8
+    local: {x: -2.47, y: 0, z: 0.73}
+  - time: 10.900001
+    local: {x: -2.25, y: 0, z: 1.18}
+  - time: 11
+    local: {x: -1.83, y: 0, z: 1.48}
+  - time: 11.1
+    local: {x: -1.25, y: 0, z: 1.61}
+  - time: 11.2
+    local: {x: -0.56, y: 0, z: 1.72}
+  - time: 11.3
+    local: {x: -0.07, y: 0, z: 1.86}
+  - time: 11.400001
+    local: {x: 0.01, y: 0, z: 1.92}
+  - time: 11.5
+    local: {x: 0, y: 0, z: 1.97}
+  - time: 11.6
+    local: {x: -0.01, y: 0, z: 1.99}
+  - time: 11.7
+    local: {x: -0.22, y: 0, z: 1.75}
+  - time: 11.8
+    local: {x: -0.6, y: 0, z: 1.35}
+  - time: 11.900001
+    local: {x: -1.11, y: 0, z: 0.91}
+  - time: 12
+    local: {x: -1.54, y: 0, z: 0.53}
+  - time: 12.1
+    local: {x: -1.58, y: 0, z: 0.42}
+  - time: 12.2
+    local: {x: -1.53, y: 0, z: 0.42}
+  - time: 12.3
+    local: {x: -1.49, y: 0, z: 0.45}
+  - time: 12.400001
+    local: {x: -1.26, y: 0, z: 0.67}
+  - time: 12.5
+    local: {x: -1.26, y: 0, z: 0.67}
+  - time: 12.6
+    local: {x: -1.56, y: 0, z: 0.68}
+  - time: 12.7
+    local: {x: -1.56, y: 0, z: 1.08}
+  - time: 12.8
+    local: {x: -1.8, y: 0, z: 1.07}
+  - time: 12.900001
+    local: {x: -2.41, y: 0, z: 1.25}
+  - time: 13
+    local: {x: -2.86, y: 0, z: 1.69}
+  - time: 13.1
+    local: {x: -3.34, y: 0, z: 1.52}
+  - time: 13.2
+    local: {x: -3.96, y: 0, z: 1.38}
+  - time: 13.3
+    local: {x: -4.75, y: 0, z: 1.68}
+  - time: 13.400001
+    local: {x: -5.54, y: 0, z: 2}
+  - time: 13.5
+    local: {x: -6.39, y: 0, z: 2.21}
+  - time: 13.6
+    local: {x: -7.02, y: 0, z: 2.35}
+  - time: 13.7
+    local: {x: -7.34, y: 0, z: 2.45}
+  - time: 13.8
+    local: {x: -7.5, y: 0, z: 2.49}
+  - time: 13.900001
+    local: {x: -7.74, y: 0, z: 2.42}
+  - time: 14
+    local: {x: -8.09, y: 0, z: 2.19}
+  - time: 14.1
+    local: {x: -8.44, y: 0, z: 1.88}
+  - time: 14.2
+    local: {x: -8.86, y: 0, z: 1.54}
+  - time: 14.3
+    local: {x: -9.35, y: 0, z: 1.5}
+  - time: 14.400001
+    local: {x: -9.79, y: 0, z: 1.91}
+  - time: 14.5
+    local: {x: -10.14, y: 0, z: 2.5}
+  - time: 14.6
+    local: {x: -10.28, y: 0, z: 2.78}
+  pathLead: 0.08
+  displayLevel: 88
+  xpFraction: 0.86
+  lives: 3
+  arrows: 30
+  playerMaxHealth: 420
+  playerDamageMultiplier: 12
+  enemyHealthMultiplier: 28
+  enemyDamageMultiplier: 0.8
+  playerMoveSpeed: 9.2
+  itemPower: 12
+  meleeId: lamina_obelisco
+  rangedId: arco_curto
+  armorId: armadura_clara
+  artifactIds:
+  - sino_pulso
+  - feixe_dourado
+  - pena_saltadora

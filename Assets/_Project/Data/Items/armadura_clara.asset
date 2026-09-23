@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d862e02d797b2ce4498665af8f348a95, type: 3}
+  m_Name: armadura_clara
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.ItemDefinition
+  id: armadura_clara
+  displayName: Armadura Clara
+  description: "Placas claras: +20 de vida e 10% de redu\xE7\xE3o de dano."
+  kind: 2
+  rarity: 0
+  icon: {fileID: 21300000, guid: f11f26faf949cd147987c7f41813e2a6, type: 3}
+  worldMesh: {fileID: 4300000, guid: b61898fb672c1234f98f895597d90cf8, type: 2}
+  worldMaterial: {fileID: 2100000, guid: e11e2ff1d82eb464b9d0d8d706764ee0, type: 2}
+  holdOffset: {x: 0, y: 0, z: 0}
+  holdEuler: {x: 0, y: 0, z: 0}
+  holdScale: 1
+  combo: []
+  meleeDamage: 10
+  projectile: {fileID: 0}
+  rangedDamage: 8
+  drawTime: 0.3
+  fireCooldown: 0.3
+  projectilesPerShot: 1
+  spreadDegrees: 0
+  healthBonus: 20
+  damageReduction: 0.1
+  moveSpeedBonus: 0
+  cooldownReduction: 0
+  armorTint: {r: 1, g: 1, b: 1, a: 1}
+  armorSkinIndex: 0
+  artifact: {fileID: 0}
+  enchantments: []
+  emeraldValue: 6

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432c24d7a54e28047a29381493c7e938, type: 3}
+  m_Name: spear_3
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.AttackDefinition
+  id: spear_3
+  poseClip: spear_3
+  duration: 0.5
+  activeStart: 0.18
+  activeEnd: 0.27
+  comboWindowStart: 0.14
+  comboWindowEnd: 0.5
+  dodgeCancelAfter: 0.28
+  chainAt: 0.4
+  range: 3.1
+  arcDegrees: 30
+  sweepFrom: 15
+  sweepTo: -15
+  height: 1
+  areaAroundSelf: 0
+  areaRadius: 0
+  damageMultiplier: 1.4
+  knockback: 4
+  stagger: 2
+  hitstop: 0.06
+  lunge: 0.6
+  telegraph: 0
+  telegraphRadius: 1.5
+  swingSfx: swing
+  hitSfx: hit_flesh
+  trail: 1

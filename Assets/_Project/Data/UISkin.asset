@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff19f84adfa39e43b158749b943ae12, type: 3}
+  m_Name: UISkin
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.UISkin
+  slotFrame: {fileID: 21300000, guid: 0ebbcb2da62d15c4888f31870eb9e9fc, type: 3}
+  slotFrameActive: {fileID: 21300000, guid: ac13af3611955ad4c8a86e07ccc7e327, type: 3}
+  panel: {fileID: 21300000, guid: e0ad664568a5cd441a600f74bab88152, type: 3}
+  panelLight: {fileID: 21300000, guid: fff22bc5e9ed83d4d99ebfef25ef146a, type: 3}
+  button: {fileID: 21300000, guid: 0e45b34a876ac38438b1ef11e4946bae, type: 3}
+  buttonSelected: {fileID: 21300000, guid: 873bb1f8da2887f4aa8117f85cfcbce5, type: 3}
+  badge: {fileID: 21300000, guid: afa152719c8c489498958ac599ae4fcf, type: 3}
+  tooltip: {fileID: 21300000, guid: 53905db472f37f940a174090bd974742, type: 3}
+  bar: {fileID: 21300000, guid: d3f961f77fb15e34fb407dbd38a62cfe, type: 3}
+  barFill: {fileID: 21300000, guid: bd3d5a3a7bd5fc144b95ff5ef7054040, type: 3}
+  white: {fileID: 21300000, guid: bd3d5a3a7bd5fc144b95ff5ef7054040, type: 3}
+  gradientBottom: {fileID: 21300000, guid: b54207e4a36d6314881863142d72c360, type: 3}
+  heartFrame: {fileID: 21300000, guid: c8511f4e940883846975061ba45bad92, type: 3}
+  heartFill: {fileID: 21300000, guid: d7bffc025c85e794ba7188b077c62dfd, type: 3}
+  heartBack: {fileID: 21300000, guid: 26cbcc75e95ecc74eb04c055e73ec6c3, type: 3}
+  heartShine: {fileID: 21300000, guid: bcc222ededaac2b4797fb9a439de68ee, type: 3}
+  potionIcon: {fileID: 21300000, guid: db4694b01420aa048b493dc0457d2426, type: 3}
+  mapIcon: {fileID: 21300000, guid: fba1acc7a95ec494d82bf1c069fed06a, type: 3}
+  livesIcon: {fileID: 21300000, guid: 4432bc0a02e7a6742b61e232931c65cd, type: 3}
+  arrowIcon: {fileID: 21300000, guid: 312cfb448120715458242155124be987, type: 3}
+  emeraldIcon: {fileID: 21300000, guid: a011ca3affa08e04ca7c560c4f6ec4de, type: 3}
+  dpadIcon: {fileID: 21300000, guid: 983f15782da46034f8a5afd11ef74daf, type: 3}
+  lockIcon: {fileID: 21300000, guid: dd1cd8f6b49be59469f0fe8a2cfdcdb8, type: 3}
+  mapChest: {fileID: 21300000, guid: 46d4d6c55fda7594894b239a086ea7b1, type: 3}
+  mapGate: {fileID: 21300000, guid: 4f5f60865f01f70459fd61fd9addb6cd, type: 3}
+  mapPlayer: {fileID: 21300000, guid: 17329b4e802b0694780fe7b32f9133c8, type: 3}
+  mapExit: {fileID: 21300000, guid: 27cfc971cb628d247b2958788f8dbeb6, type: 3}
+  mapCheckpoint: {fileID: 21300000, guid: 8e0e9784aa01aed43b9b80d3742b66f5, type: 3}
+  mapMerchant: {fileID: 21300000, guid: f8d7b9cbc7dd97f46abb5e48970ee08e, type: 3}
+  mapObjective: {fileID: 21300000, guid: b6e3211bf7bbe124a96211ab91357f1e, type: 3}
+  damageBox: {fileID: 21300000, guid: 50b739b6211a3f24abd371c82711a59d, type: 3}
+  interactRing: {fileID: 21300000, guid: 873bb1f8da2887f4aa8117f85cfcbce5, type: 3}

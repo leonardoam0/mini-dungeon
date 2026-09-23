@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d862e02d797b2ce4498665af8f348a95, type: 3}
+  m_Name: lanca_templo
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.ItemDefinition
+  id: lanca_templo
+  displayName: "Lan\xE7a do Templo"
+  description: "Alcance longo; \xE0s vezes libera esporos venenosos."
+  kind: 0
+  rarity: 1
+  icon: {fileID: 21300000, guid: a19aa11cf64124c4bb92f46e5ffb1a27, type: 3}
+  worldMesh: {fileID: 4300000, guid: 3bf42ff9f7003434db750df026c52240, type: 2}
+  worldMaterial: {fileID: 2100000, guid: 59637600b555b714384cc5315a5aa215, type: 2}
+  holdOffset: {x: 0, y: -0.02, z: 0.04}
+  holdEuler: {x: 0, y: -90, z: -45}
+  holdScale: 0.85
+  combo:
+  - {fileID: 11400000, guid: 2576be508821d3c42b1fa44fd0716164, type: 2}
+  - {fileID: 11400000, guid: 4fdc9950dd2975045b1157d5eec165d0, type: 2}
+  - {fileID: 11400000, guid: 44db410732d5a184d81adfe74603b71c, type: 2}
+  meleeDamage: 10
+  projectile: {fileID: 0}
+  rangedDamage: 8
+  drawTime: 0.3
+  fireCooldown: 0.3
+  projectilesPerShot: 1
+  spreadDegrees: 0
+  healthBonus: 0
+  damageReduction: 0
+  moveSpeedBonus: 0
+  cooldownReduction: 0
+  armorTint: {r: 1, g: 1, b: 1, a: 1}
+  armorSkinIndex: 0
+  artifact: {fileID: 0}
+  enchantments:
+  - {fileID: 11400000, guid: 6e6a7efb2237bca4bbf6ab628ebd8984, type: 2}
+  emeraldValue: 14

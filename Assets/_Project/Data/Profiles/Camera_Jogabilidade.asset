@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4de490a8716d34a8f18c4012e40d27, type: 3}
+  m_Name: Camera_Jogabilidade
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.CameraProfile
+  yaw: 45
+  pitch: 45
+  distance: 46
+  fieldOfView: 28
+  orthographic: 0
+  orthographicSize: 11.5
+  nearClip: 8
+  farClip: 160
+  targetOffset: {x: 0, y: 0, z: 0}
+  screenOffsetY: 0
+  followSmoothTime: 0.06
+  verticalSmoothTime: 0.08
+  lookAhead: 0
+  lookAheadSmoothTime: 0.45
+  useRoomBounds: 1
+  shakeScale: 1
+  maxShake: 0.25

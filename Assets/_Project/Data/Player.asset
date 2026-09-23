@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75df038152f4ea44c85e7b649b91a62b, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.PlayerDefinition
+  prefab: {fileID: 5961132848703193687, guid: 73607a8c9e867d249971027f63ac0cf3, type: 3}
+  maxHealth: 100
+  moveSpeed: 4.6
+  acceleration: 42
+  deceleration: 55
+  turnSpeed: 1080
+  gravity: 30
+  radius: 0.35
+  dodgeDistance: 3.2
+  dodgeDuration: 0.34
+  dodgeRecovery: 0.1
+  dodgeCooldown: 0.9
+  dodgeInvulnerable: 0
+  dodgeInvulnerableTime: 0
+  potionHealFraction: 0.6
+  potionCooldown: 25
+  potionUseTime: 0.45
+  critChance: 0.06
+  critMultiplier: 2
+  startingArrows: 30
+  maxArrows: 99
+  lives: 3
+  startingItems:
+  - espada_curta
+  - arco_curto
+  - armadura_clara
+  - pena_saltadora
+  startMelee: espada_curta
+  startRanged: arco_curto
+  startArmor: armadura_clara
+  startArtifacts:
+  - pena_saltadora
+  - 
+  - 

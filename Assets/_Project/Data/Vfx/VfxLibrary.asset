@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6add9fe7bc6a6a4dbbf5a348f0cb73a, type: 3}
+  m_Name: VfxLibrary
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.VfxLibrary
+  entries:
+  - key: impact_small
+    prefab: {fileID: 3294934675750688345, guid: e5b39368bd85eb342a5f92738b80a927, type: 3}
+    lifetime: 0.6
+    prewarm: 6
+    maxInstances: 40
+  - key: dust_puff
+    prefab: {fileID: 1386904386766914792, guid: 51e7ca1847e6ce444bc346abd20a0605, type: 3}
+    lifetime: 0.9
+    prewarm: 3
+    maxInstances: 20
+  - key: feather_burst
+    prefab: {fileID: 835330865590065149, guid: 23cb23f019fd9e8439a5584969b018bb, type: 3}
+    lifetime: 1.1
+    prewarm: 2
+    maxInstances: 8
+  - key: shockwave_ring
+    prefab: {fileID: 8107971358713784363, guid: 07d0ccb501d152f4da2e36be54e46e49, type: 3}
+    lifetime: 0.6
+    prewarm: 3
+    maxInstances: 12
+  - key: magic_charge
+    prefab: {fileID: 7727866636356082469, guid: 324dfbf1d34831e4ca83fcdd39a39855, type: 3}
+    lifetime: 0.4
+    prewarm: 2
+    maxInstances: 8
+  - key: pulse_magenta
+    prefab: {fileID: 6145690100905311962, guid: 445e183c83865af4ba00d859a565d693, type: 3}
+    lifetime: 1.2
+    prewarm: 2
+    maxInstances: 6
+  - key: orb_violet
+    prefab: {fileID: 6101842505427202680, guid: eb4e809eccd57a64db512d59dca95b2a, type: 3}
+    lifetime: 0.8
+    prewarm: 1
+    maxInstances: 4
+  - key: fire_column
+    prefab: {fileID: 876238952667308610, guid: 6d487f87c57013c4698c47dbfb83ed51, type: 3}
+    lifetime: 0.6
+    prewarm: 2
+    maxInstances: 6
+  - key: explosion_fire
+    prefab: {fileID: 3467618110491469331, guid: dda405c8043cfc34e93a97576c687fe6, type: 3}
+    lifetime: 1.6
+    prewarm: 1
+    maxInstances: 4
+  - key: flash_white
+    prefab: {fileID: 6053357940455768050, guid: ea5c1069f96937a4688e6b3d77783038, type: 3}
+    lifetime: 1
+    prewarm: 1
+    maxInstances: 3
+  - key: beam_magenta
+    prefab: {fileID: 4701651547403429719, guid: 3de0391b7c87e9d41b4111501c44ee78, type: 3}
+    lifetime: 1.2
+    prewarm: 2
+    maxInstances: 6
+  - key: magic_flame
+    prefab: {fileID: 2715246189566846007, guid: 86e5c2b98c7df5a4b940bf7c89839991, type: 3}
+    lifetime: 1.5
+    prewarm: 1
+    maxInstances: 4
+  - key: fire_burst
+    prefab: {fileID: 6552708644494368564, guid: fd0646129cf678040be9d655188f53a5, type: 3}
+    lifetime: 2
+    prewarm: 2
+    maxInstances: 8
+  - key: burning
+    prefab: {fileID: 2007109778745569756, guid: 87de3383f60f1d840adcef24400e36b5, type: 3}
+    lifetime: -1
+    prewarm: 3
+    maxInstances: 16
+  - key: stun_stars
+    prefab: {fileID: 3353454637750745530, guid: 2f1f1641652679547b65763c57fa75c8, type: 3}
+    lifetime: -1
+    prewarm: 2
+    maxInstances: 12
+  - key: vulnerable_glow
+    prefab: {fileID: 6239249410971563298, guid: 4a40fa044e68f3948818969e9ac6de43, type: 3}
+    lifetime: -1
+    prewarm: 3
+    maxInstances: 16
+  - key: poison_bubbles
+    prefab: {fileID: 185977801073510988, guid: ae4f4847de878044fa0ecd0e87ee8533, type: 3}
+    lifetime: -1
+    prewarm: 3
+    maxInstances: 16
+  - key: heal_swirl
+    prefab: {fileID: 8587457820942792541, guid: eeb9bdf22bf94574a937b19766ed13bc, type: 3}
+    lifetime: 1.2
+    prewarm: 2
+    maxInstances: 6
+  - key: level_up
+    prefab: {fileID: 1513137020440909379, guid: f0c6731112f92254389ba86ca1598961, type: 3}
+    lifetime: 2
+    prewarm: 1
+    maxInstances: 3
+  - key: chest_sparkle
+    prefab: {fileID: 4563340676776078523, guid: 714fefa3a095c4740b32f6db7c97b3be, type: 3}
+    lifetime: 1.2
+    prewarm: 1
+    maxInstances: 4
+  - key: pickup_sparkle
+    prefab: {fileID: 7330006015057766997, guid: 768038adbf0bc804b8e55c87f3bd7281, type: 3}
+    lifetime: 0.6
+    prewarm: 3
+    maxInstances: 16
+  - key: loot_beam
+    prefab: {fileID: 2246319158287105680, guid: ccef2610079e390429f0a38048a316da, type: 3}
+    lifetime: -1
+    prewarm: 2
+    maxInstances: 16
+  - key: spawn_burst
+    prefab: {fileID: 4200236531026397539, guid: 352fe52b335c1bb4fab2694ef92b5091, type: 3}
+    lifetime: 1
+    prewarm: 3
+    maxInstances: 12
+  - key: death_cubes
+    prefab: {fileID: 8837359315633166846, guid: ae6bb3e969c67eb4ba7e4e79593d6ee6, type: 3}
+    lifetime: 1.2
+    prewarm: 4
+    maxInstances: 16
+  - key: death_puff
+    prefab: {fileID: 4800989995633301476, guid: b878fe6a2e34c024e807274cf6d0f86b, type: 3}
+    lifetime: 1
+    prewarm: 4
+    maxInstances: 16
+  - key: summon_puff
+    prefab: {fileID: 2683639544392855760, guid: 3a95cf64647587a4ab09a3be5e0f7c10, type: 3}
+    lifetime: 1
+    prewarm: 2
+    maxInstances: 8
+  - key: checkpoint_flare
+    prefab: {fileID: 2557349984364785033, guid: e8d47c2a13586af40a1db23aca18fd59, type: 3}
+    lifetime: 1.3
+    prewarm: 1
+    maxInstances: 3
+  - key: cloud_green
+    prefab: {fileID: 7726623820808049196, guid: a75a041099fe8e34aab3f0f3cea24df4, type: 3}
+    lifetime: 4
+    prewarm: 4
+    maxInstances: 16
+  - key: spore_burst
+    prefab: {fileID: 6913836459990289458, guid: c534ff9d0734c35428c54c9fa12f1d24, type: 3}
+    lifetime: 0.8
+    prewarm: 3
+    maxInstances: 12
+  - key: impact_spit
+    prefab: {fileID: 2019915798171910006, guid: 8a3db9d366997eb45b93512f36eb26fa, type: 3}
+    lifetime: 0.6
+    prewarm: 3
+    maxInstances: 12
+  telegraphMaterial: {fileID: 2100000, guid: 89b7a07f6f538c64ea5caccd498f0c01, type: 2}
+  glowAdditive: {fileID: 2100000, guid: afb164db930fb6c4f90b836fdcfc4474, type: 2}
+  particleCube: {fileID: 2100000, guid: 08f5be5ccf825ea478ccfba52c444511, type: 2}
+  cubeMesh: {fileID: 4300000, guid: 2660d08afd168d544a9a78383a4da9e6, type: 2}
+  quadMesh: {fileID: 4300000, guid: 9910a499551ab1a4e8c0131d6f047cb6, type: 2}
+  sphereMesh: {fileID: 4300000, guid: 1bcdabbbb8604d448aaa9f003c5e6254, type: 2}

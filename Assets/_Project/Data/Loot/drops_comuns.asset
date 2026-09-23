@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3fa6c20ffd45694eaaf078808c7ce5f, type: 3}
+  m_Name: drops_comuns
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.LootTable
+  id: drops_comuns
+  dropChance: 0.7
+  rolls: 1
+  entries:
+  - item: {fileID: 0}
+    emeraldsMin: 1
+    emeraldsMax: 3
+    arrows: 0
+    healthOrb: 0
+    weight: 5
+  - item: {fileID: 0}
+    emeraldsMin: 0
+    emeraldsMax: 0
+    arrows: 4
+    healthOrb: 0
+    weight: 2
+  - item: {fileID: 0}
+    emeraldsMin: 0
+    emeraldsMax: 0
+    arrows: 0
+    healthOrb: 1
+    weight: 1
+  guaranteed: []
