@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432c24d7a54e28047a29381493c7e938, type: 3}
+  m_Name: sword_3
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.AttackDefinition
+  id: sword_3
+  poseClip: sword_3
+  duration: 0.6
+  activeStart: 0.24
+  activeEnd: 0.34
+  comboWindowStart: 0.2
+  comboWindowEnd: 0.6
+  dodgeCancelAfter: 0.36
+  chainAt: 0.5
+  range: 2.1
+  arcDegrees: 60
+  sweepFrom: 30
+  sweepTo: -30
+  height: 1
+  areaAroundSelf: 0
+  areaRadius: 0
+  damageMultiplier: 1.5
+  knockback: 5.5
+  stagger: 2
+  hitstop: 0.07
+  lunge: 0.55
+  telegraph: 0
+  telegraphRadius: 1.5
+  swingSfx: swing
+  hitSfx: hit_flesh
+  trail: 1

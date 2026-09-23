@@ -1,0 +1,12 @@
+{
+  "descricao": "Centro da face superior luminosa do obelisco no vídeo (recorte 540x960), detectado por limiar de brilho e conferido visualmente quadro a quadro. Instantes sem obelisco visível ou com detecção ambígua (fogo, nuvens, explosão) foram excluídos.",
+  "obelisco_topo": {
+    "0.0": [177.4, 311.7],
+    "0.7": [215.8, 266.7],
+    "2.5": [496.9, 348.9],
+    "4.0": [373.0, 314.1],
+    "5.5": [371.5, 284.3],
+    "9.5": [374.8, 237.8],
+    "12.0": [332.2, 236.6]
+  }
+}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5149b9633d86d6349a164bf8cafb5862, type: 3}
+  m_Name: enc_corredor
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.EncounterDefinition
+  id: enc_corredor
+  displayName: Corredor
+  objectiveText: Derrote os guardas do corredor
+  activatingDuration: 0.4
+  resolvingDuration: 1
+  waves:
+  - spawns:
+    - enemy: {fileID: 11400000, guid: 3ad7deae6ca10ea40a43e3eaa4bf0205, type: 2}
+      count: 2
+      spawnGroup: 
+    delayBefore: 0
+    advanceWhenRemaining: 1
+  - spawns:
+    - enemy: {fileID: 11400000, guid: 3ad7deae6ca10ea40a43e3eaa4bf0205, type: 2}
+      count: 2
+      spawnGroup: 
+    - enemy: {fileID: 11400000, guid: 537a8a1df0de36b45b7056ec7c88a404, type: 2}
+      count: 1
+      spawnGroup: 
+    delayBefore: 1.5
+    advanceWhenRemaining: 0
+  reward: {fileID: 0}
+  xpReward: 20
+  lockGatesWhileActive: 1
+  perimeterShiftAt: 0.6

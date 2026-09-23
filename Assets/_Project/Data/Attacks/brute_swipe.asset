@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432c24d7a54e28047a29381493c7e938, type: 3}
+  m_Name: brute_swipe
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.AttackDefinition
+  id: brute_swipe
+  poseClip: brute_swipe
+  duration: 1.1
+  activeStart: 0.55
+  activeEnd: 0.7
+  comboWindowStart: 0
+  comboWindowEnd: 0
+  dodgeCancelAfter: 0.8
+  chainAt: 1
+  range: 2.4
+  arcDegrees: 140
+  sweepFrom: 70
+  sweepTo: -70
+  height: 1
+  areaAroundSelf: 0
+  areaRadius: 0
+  damageMultiplier: 1
+  knockback: 6
+  stagger: 3
+  hitstop: 0.07
+  lunge: 0
+  telegraph: 1
+  telegraphRadius: 2
+  swingSfx: swing
+  hitSfx: hit_flesh
+  trail: 0

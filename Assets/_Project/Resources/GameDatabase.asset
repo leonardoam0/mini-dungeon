@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9287ea08738214f8c3552465e20dbc, type: 3}
+  m_Name: GameDatabase
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.GameDatabase
+  items:
+  - {fileID: 11400000, guid: 4b6bbe16af8bad049882a3186d896032, type: 2}
+  - {fileID: 11400000, guid: eb3cfe7ac44c7b747ac516c9259e19a7, type: 2}
+  - {fileID: 11400000, guid: f59fefabb90d4f646b9284b1b523247c, type: 2}
+  - {fileID: 11400000, guid: 4eebfdcc9225ee645ae060c88d643f7d, type: 2}
+  - {fileID: 11400000, guid: 3dd5c0ef1ac571c47b527d643c48dacf, type: 2}
+  - {fileID: 11400000, guid: e0337f1041eb9834bbd8a3a3869773cf, type: 2}
+  - {fileID: 11400000, guid: 215e154f5dee40844866b62bbe0b74e5, type: 2}
+  - {fileID: 11400000, guid: d7d2397990344a549b784cc09f354405, type: 2}
+  - {fileID: 11400000, guid: 89207a45b19b0684cbe16b11179a5193, type: 2}
+  - {fileID: 11400000, guid: f3b6f0a27ba2acb42a6fe6b45440f129, type: 2}
+  - {fileID: 11400000, guid: 0d3dcaeeedf838f44b6d9baaa8147c59, type: 2}
+  enemies:
+  - {fileID: 11400000, guid: 3ad7deae6ca10ea40a43e3eaa4bf0205, type: 2}
+  - {fileID: 11400000, guid: 537a8a1df0de36b45b7056ec7c88a404, type: 2}
+  - {fileID: 11400000, guid: be6ccc0098ddae246988d87ff9b7993e, type: 2}
+  - {fileID: 11400000, guid: 14689998d023a8e48aa61d279f8959ef, type: 2}
+  statusEffects:
+  - {fileID: 11400000, guid: 523ce6cb02893c146b9edb6ace5eebcd, type: 2}
+  - {fileID: 11400000, guid: 37a3a05b7ece57846a1d6387ecb992b5, type: 2}
+  - {fileID: 11400000, guid: 3ada37678c76ad54aac453e36cfd6780, type: 2}
+  - {fileID: 11400000, guid: 039cde5a34d341f468bbdcdc129fd27c, type: 2}
+  - {fileID: 11400000, guid: e201ed3f628a1ae48b231ac63ccdea63, type: 2}
+  - {fileID: 11400000, guid: f716ea1f3e6c7314c9a6c69e9840e0d7, type: 2}
+  - {fileID: 11400000, guid: 4676ae84cb039334c898eb2442d54a28, type: 2}
+  - {fileID: 11400000, guid: 5fe9b51ba772b2e47a40f4f088643762, type: 2}
+  enchantments:
+  - {fileID: 11400000, guid: fe4ddcf46b38b4f459934ed7efde12ba, type: 2}
+  - {fileID: 11400000, guid: 4f989028ffb1774498a56bc44bc1c5d1, type: 2}
+  - {fileID: 11400000, guid: 6e6a7efb2237bca4bbf6ab628ebd8984, type: 2}
+  - {fileID: 11400000, guid: f0065586c6fff1b428b5f404fed5ec4a, type: 2}
+  - {fileID: 11400000, guid: fd82f5f0d3d11db4bbc0d9db882879f5, type: 2}
+  - {fileID: 11400000, guid: 1d9219497ee9132469abdc143fa9e0e8, type: 2}
+  - {fileID: 11400000, guid: e70dee9bd7f020d4e9e4a435aa1e8c21, type: 2}
+  - {fileID: 11400000, guid: 6b5e41dc852b41a48a92f7fe40ccf050, type: 2}
+  - {fileID: 11400000, guid: 2514d207c3ec3e14881e7e0fe9ac4e66, type: 2}
+  artifacts:
+  - {fileID: 11400000, guid: a7f5e83ab99bca74091ef1a725bc6d57, type: 2}
+  - {fileID: 11400000, guid: 44e6239c40f6c284cad5470582b336be, type: 2}
+  - {fileID: 11400000, guid: 2c23126d109428f469b28c08454ee19d, type: 2}
+  lootTables:
+  - {fileID: 11400000, guid: 9022e0b01cfd0d147a2b62e98a5be8ae, type: 2}
+  - {fileID: 11400000, guid: 73ae749c926ab5a4d93b09f10584c697, type: 2}
+  - {fileID: 11400000, guid: efd1901a88f00b049b6cbf9bc060730f, type: 2}
+  - {fileID: 11400000, guid: 92673b0a9629a444ba151c142867b775, type: 2}
+  - {fileID: 11400000, guid: c5481bb8fd9fed744a8374be671a5691, type: 2}
+  - {fileID: 11400000, guid: 4772037b922423744bbc0656e8c80e17, type: 2}
+  - {fileID: 11400000, guid: 3bc9212a85af59347b7317919a719d4f, type: 2}
+  - {fileID: 11400000, guid: 10fd0e883dfafa249ae04cfd94ebfb93, type: 2}
+  encounters:
+  - {fileID: 11400000, guid: 4a06b22a195ed274cab03a192a00c246, type: 2}
+  - {fileID: 11400000, guid: 63989aa1410d0e64094895d3412419c6, type: 2}
+  - {fileID: 11400000, guid: b9dae14e403a6e24697d67189d017c92, type: 2}
+  - {fileID: 11400000, guid: 624b3c5d5aae5d344b1b6ae19d99ff83, type: 2}
+  - {fileID: 11400000, guid: a4d20fbc0a70f6b478809f48c5e6778f, type: 2}
+  - {fileID: 11400000, guid: 9f99b31739209854bb12877478683122, type: 2}
+  projectiles:
+  - {fileID: 11400000, guid: 67b12bef06b8b844193a95e4a949e88b, type: 2}
+  - {fileID: 11400000, guid: 3f631b3ca8209c44ebcbd29aadf8cf10, type: 2}
+  - {fileID: 11400000, guid: bddd2fe17a9703742b4b49367345b41e, type: 2}
+  - {fileID: 11400000, guid: cef939f7751d9d84d8a7ec4315894a20, type: 2}
+  - {fileID: 11400000, guid: 8974866928cd8fd4192a506b1520a968, type: 2}
+  consumables:
+  - {fileID: 11400000, guid: b1bbb7d52745c8845b0263cc601e2f62, type: 2}
+  player: {fileID: 11400000, guid: e5a606515c303144f9960d5b02ce3112, type: 2}
+  companionPrefab: {fileID: 8504343574943098901, guid: da5e26af732a194489cbca3e7ad6fecc, type: 3}
+  poses: {fileID: 11400000, guid: e81ec1770783b534690247f0035ca268, type: 2}
+  sfx: {fileID: 11400000, guid: a37b735cfaee58e4f9bf7ea8d7c2eb32, type: 2}
+  vfx: {fileID: 11400000, guid: 1b8af4c351369984dbbcfc56a2065cbe, type: 2}
+  uiSkin: {fileID: 11400000, guid: 73db74fa41ad9e44d8f42bf5778ad9e8, type: 2}
+  font: {fileID: 11400000, guid: 0b30e755bd620ec4bb6fda8c28ae4ae2, type: 2}
+  inputActions: {fileID: -944628639613478452, guid: 4bd488ed7083a2d4195c72a584281708, type: 3}
+  gameplayCamera: {fileID: 11400000, guid: 0c15d1c5f41b7e2449b4eb4673fdc79e, type: 2}
+  captureProfile: {fileID: 11400000, guid: 0fef3045271eb9143a16f1dc334a0b15, type: 2}
+  referenceScript: {fileID: 11400000, guid: 5bda1088b845d704f926486bd8a86b2a, type: 2}
+  itemMaterial: {fileID: 2100000, guid: 59637600b555b714384cc5315a5aa215, type: 2}
+  characterMaterial: {fileID: 2100000, guid: e11e2ff1d82eb464b9d0d8d706764ee0, type: 2}
+  emeraldMesh: {fileID: 4300000, guid: 1c0b1ae461eab9b4aa077c5e8c86ffba, type: 2}
+  arrowsMesh: {fileID: 4300000, guid: b0220ec9e82eaa64d813dd813825b2bc, type: 2}
+  healthOrbMesh: {fileID: 4300000, guid: d843a593daeaea3459997176d03a1623, type: 2}
+  poison: {fileID: 11400000, guid: 523ce6cb02893c146b9edb6ace5eebcd, type: 2}
+  burning: {fileID: 11400000, guid: 37a3a05b7ece57846a1d6387ecb992b5, type: 2}
+  stun: {fileID: 11400000, guid: 039cde5a34d341f468bbdcdc129fd27c, type: 2}
+  vulnerable: {fileID: 11400000, guid: e201ed3f628a1ae48b231ac63ccdea63, type: 2}
+  slow: {fileID: 11400000, guid: 3ada37678c76ad54aac453e36cfd6780, type: 2}

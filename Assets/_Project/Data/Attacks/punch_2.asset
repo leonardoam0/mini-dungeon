@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432c24d7a54e28047a29381493c7e938, type: 3}
+  m_Name: punch_2
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.AttackDefinition
+  id: punch_2
+  poseClip: punch_2
+  duration: 0.34
+  activeStart: 0.12
+  activeEnd: 0.2
+  comboWindowStart: 0.08
+  comboWindowEnd: 0.34
+  dodgeCancelAfter: 0.2
+  chainAt: 0.24
+  range: 1.4
+  arcDegrees: 60
+  sweepFrom: -30
+  sweepTo: 30
+  height: 1
+  areaAroundSelf: 0
+  areaRadius: 0
+  damageMultiplier: 1
+  knockback: 1.5
+  stagger: 1
+  hitstop: 0.04
+  lunge: 0.2
+  telegraph: 0
+  telegraphRadius: 1.5
+  swingSfx: swing
+  hitSfx: hit_flesh
+  trail: 1

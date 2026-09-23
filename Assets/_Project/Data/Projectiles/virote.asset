@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab9c5daa76fe1db42b89a28bb5819cd6, type: 3}
+  m_Name: virote
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.ProjectileDefinition
+  id: virote
+  visualPrefab: {fileID: 8710067358017647057, guid: c79c6c2fcef5a554297ec1e67d1725da, type: 3}
+  speed: 36
+  gravity: 0
+  maxLifetime: 1.4
+  radius: 0.14
+  pierce: 2
+  knockback: 4
+  stagger: 1.5
+  impactVfx: impact_small
+  impactSfx: arrow_hit
+  launchSfx: bow_release
+  trailColor: {r: 1, g: 1, b: 1, a: 0.5}
+  alignToVelocity: 1
+  areaOnImpact:
+    enabled: 0
+    radius: 1.8
+    duration: 4
+    tickInterval: 0.5
+    damagePerTick: 3
+    kind: 3
+    status:
+      effect: {fileID: 0}
+      duration: 0
+      chance: 0
+      potency: 0
+    visualKey: cloud_green
+    hostileTint: 1
+  statuses: []

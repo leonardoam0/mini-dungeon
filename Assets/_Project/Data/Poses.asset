@@ -1,0 +1,1428 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de654ec211e84d4e8ce62b5cd7e8da2, type: 3}
+  m_Name: Poses
+  m_EditorClassIdentifier: Ruinas.Runtime::Ruinas.PoseLibrary
+  clips:
+  - id: sword_1
+    duration: 0.45
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.13
+      body: {x: 4, y: 28, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -25, y: 0, z: -12}
+      armR: {x: -115, y: 0, z: 48}
+      legL: {x: -10, y: 0, z: 0}
+      legR: {x: 8, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.2
+      body: {x: 10, y: -22, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -15, y: 0, z: -20}
+      armR: {x: -82, y: 0, z: -28}
+      legL: {x: -18, y: 0, z: 0}
+      legR: {x: 12, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 1
+    - time: 0.3
+      body: {x: 8, y: -32, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -8, y: 0, z: -18}
+      armR: {x: -62, y: 0, z: -44}
+      legL: {x: -15, y: 0, z: 0}
+      legR: {x: 10, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.45
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: sword_2
+    duration: 0.45
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 6, y: -25, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: -70, y: 0, z: -40}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.13
+      body: {x: 4, y: -34, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -20, y: 0, z: -10}
+      armR: {x: -105, y: 0, z: -52}
+      legL: {x: 8, y: 0, z: 0}
+      legR: {x: -12, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.2
+      body: {x: 10, y: 22, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -12, y: 0, z: -24}
+      armR: {x: -84, y: 0, z: 32}
+      legL: {x: 10, y: 0, z: 0}
+      legR: {x: -18, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 1
+    - time: 0.3
+      body: {x: 8, y: 30, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -6, y: 0, z: -20}
+      armR: {x: -64, y: 0, z: 46}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.45
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: sword_3
+    duration: 0.6
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.2
+      body: {x: -12, y: 0, z: 0}
+      head: {x: -8, y: 0, z: 0}
+      armL: {x: -150, y: 0, z: -8}
+      armR: {x: -172, y: 0, z: 6}
+      legL: {x: -14, y: 0, z: 0}
+      legR: {x: 10, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0.04, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.27
+      body: {x: 22, y: 0, z: 0}
+      head: {x: 10, y: 0, z: 0}
+      armL: {x: -50, y: 0, z: -4}
+      armR: {x: -58, y: 0, z: 2}
+      legL: {x: -26, y: 0, z: 0}
+      legR: {x: 16, y: 0, z: 0}
+      rootOffset: {x: 0, y: -0.06, z: 0.06}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 1
+    - time: 0.4
+      body: {x: 18, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -40, y: 0, z: -6}
+      armR: {x: -48, y: 0, z: 4}
+      legL: {x: -24, y: 0, z: 0}
+      legR: {x: 14, y: 0, z: 0}
+      rootOffset: {x: 0, y: -0.05, z: 0.05}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.6
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: axe_1
+    duration: 0.66
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.27
+      body: {x: -16, y: 0, z: 0}
+      head: {x: -10, y: 0, z: 0}
+      armL: {x: -172, y: 0, z: -4}
+      armR: {x: -178, y: 0, z: 4}
+      legL: {x: -12, y: 0, z: 0}
+      legR: {x: 12, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0.06, z: -0.04}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.34
+      body: {x: 28, y: 0, z: 0}
+      head: {x: 12, y: 0, z: 0}
+      armL: {x: -45, y: 0, z: -2}
+      armR: {x: -45, y: 0, z: 2}
+      legL: {x: -28, y: 0, z: 0}
+      legR: {x: 18, y: 0, z: 0}
+      rootOffset: {x: 0, y: -0.1, z: 0.08}
+      rootTilt: {x: 5, y: 0, z: 0}
+      ease: 1
+    - time: 0.5
+      body: {x: 24, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -38, y: 0, z: -2}
+      armR: {x: -38, y: 0, z: 2}
+      legL: {x: -26, y: 0, z: 0}
+      legR: {x: 16, y: 0, z: 0}
+      rootOffset: {x: 0, y: -0.08, z: 0.06}
+      rootTilt: {x: 4, y: 0, z: 0}
+      ease: 3
+    - time: 0.66
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: axe_2
+    duration: 0.72
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.26
+      body: {x: 6, y: 52, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -80, y: 0, z: 30}
+      armR: {x: -92, y: 0, z: 64}
+      legL: {x: -10, y: 0, z: 0}
+      legR: {x: 14, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.38
+      body: {x: 10, y: -58, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -70, y: 0, z: -40}
+      armR: {x: -84, y: 0, z: -52}
+      legL: {x: -18, y: 0, z: 0}
+      legR: {x: 10, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 1
+    - time: 0.52
+      body: {x: 8, y: -66, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -60, y: 0, z: -46}
+      armR: {x: -70, y: 0, z: -58}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.72
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: spear_1
+    duration: 0.36
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.096
+      body: {x: -4, y: 18, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -60, y: 0, z: -30}
+      armR: {x: -80, y: 0, z: 18}
+      legL: {x: 8, y: 0, z: 0}
+      legR: {x: -8, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: -0.08}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.16
+      body: {x: 14, y: -8, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -86, y: 0, z: -8}
+      armR: {x: -96, y: 0, z: -4}
+      legL: {x: -22, y: 0, z: 0}
+      legR: {x: 14, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0.12}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 1
+    - time: 0.27
+      body: {x: 10, y: -6, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -80, y: 0, z: -6}
+      armR: {x: -90, y: 0, z: 0}
+      legL: {x: -18, y: 0, z: 0}
+      legR: {x: 12, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0.072000004}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.36
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: spear_2
+    duration: 0.36
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.096
+      body: {x: -4, y: 18, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -60, y: 0, z: -30}
+      armR: {x: -80, y: 0, z: 18}
+      legL: {x: 8, y: 0, z: 0}
+      legR: {x: -8, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: -0.08}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.16
+      body: {x: 14, y: -8, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -86, y: 0, z: -8}
+      armR: {x: -96, y: 0, z: -4}
+      legL: {x: -22, y: 0, z: 0}
+      legR: {x: 14, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0.12}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 1
+    - time: 0.27
+      body: {x: 10, y: -6, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -80, y: 0, z: -6}
+      armR: {x: -90, y: 0, z: 0}
+      legL: {x: -18, y: 0, z: 0}
+      legR: {x: 12, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0.072000004}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.36
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: spear_3
+    duration: 0.5
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.14400001
+      body: {x: -4, y: 18, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -60, y: 0, z: -30}
+      armR: {x: -80, y: 0, z: 18}
+      legL: {x: 8, y: 0, z: 0}
+      legR: {x: -8, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: -0.08}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.22
+      body: {x: 14, y: -8, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -86, y: 0, z: -8}
+      armR: {x: -96, y: 0, z: -4}
+      legL: {x: -22, y: 0, z: 0}
+      legR: {x: 14, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0.22}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 1
+    - time: 0.375
+      body: {x: 10, y: -6, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -80, y: 0, z: -6}
+      armR: {x: -90, y: 0, z: 0}
+      legL: {x: -18, y: 0, z: 0}
+      legR: {x: 12, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0.132}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.5
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: punch_1
+    duration: 0.34
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.1
+      body: {x: 0, y: 20, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: -60, y: 0, z: 20}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.15
+      body: {x: 8, y: -12, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: -92, y: 0, z: -6}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 1
+    - time: 0.34
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: punch_2
+    duration: 0.34
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.1
+      body: {x: 0, y: -20, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -60, y: 0, z: -20}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.15
+      body: {x: 8, y: 12, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -92, y: 0, z: 6}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 1
+    - time: 0.34
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: bow_draw
+    duration: 0.3
+    loop: 0
+    upperBodyOnly: 1
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.18
+      body: {x: 0, y: -12, z: 0}
+      head: {x: 0, y: 10, z: 0}
+      armL: {x: -88, y: 12, z: 0}
+      armR: {x: -84, y: -18, z: -8}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.3
+      body: {x: 0, y: -14, z: 0}
+      head: {x: 0, y: 12, z: 0}
+      armL: {x: -90, y: 12, z: 0}
+      armR: {x: -86, y: -22, z: -12}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: bow_release
+    duration: 0.22
+    loop: 0
+    upperBodyOnly: 1
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: -14, z: 0}
+      head: {x: 0, y: 12, z: 0}
+      armL: {x: -90, y: 12, z: 0}
+      armR: {x: -86, y: -22, z: -12}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.05
+      body: {x: -4, y: -10, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -94, y: 12, z: 0}
+      armR: {x: -70, y: 0, z: 24}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.22
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: roll
+    duration: 0.34
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.03
+    blendOut: 0.08
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: -0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 0
+    - time: 0.0425
+      body: {x: 40, y: 0, z: 0}
+      head: {x: 30, y: 0, z: 0}
+      armL: {x: -70, y: 0, z: -10}
+      armR: {x: -70, y: 0, z: 10}
+      legL: {x: -80, y: 0, z: 0}
+      legR: {x: -80, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0.24895926, z: -0.6010408}
+      rootTilt: {x: 45, y: 0, z: 0}
+      ease: 0
+    - time: 0.085
+      body: {x: 40, y: 0, z: 0}
+      head: {x: 30, y: 0, z: 0}
+      armL: {x: -70, y: 0, z: -10}
+      armR: {x: -70, y: 0, z: 10}
+      legL: {x: -80, y: 0, z: 0}
+      legR: {x: -80, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0.8500001, z: -0.85}
+      rootTilt: {x: 90, y: 0, z: 0}
+      ease: 0
+    - time: 0.1275
+      body: {x: 40, y: 0, z: 0}
+      head: {x: 30, y: 0, z: 0}
+      armL: {x: -70, y: 0, z: -10}
+      armR: {x: -70, y: 0, z: 10}
+      legL: {x: -80, y: 0, z: 0}
+      legR: {x: -80, y: 0, z: 0}
+      rootOffset: {x: 0, y: 1.4510407, z: -0.6010408}
+      rootTilt: {x: 135, y: 0, z: 0}
+      ease: 0
+    - time: 0.17
+      body: {x: 40, y: 0, z: 0}
+      head: {x: 30, y: 0, z: 0}
+      armL: {x: -70, y: 0, z: -10}
+      armR: {x: -70, y: 0, z: 10}
+      legL: {x: -80, y: 0, z: 0}
+      legR: {x: -80, y: 0, z: 0}
+      rootOffset: {x: 0, y: 1.7, z: 0.00000007430936}
+      rootTilt: {x: 180, y: 0, z: 0}
+      ease: 0
+    - time: 0.2125
+      body: {x: 40, y: 0, z: 0}
+      head: {x: 30, y: 0, z: 0}
+      armL: {x: -70, y: 0, z: -10}
+      armR: {x: -70, y: 0, z: 10}
+      legL: {x: -80, y: 0, z: 0}
+      legR: {x: -80, y: 0, z: 0}
+      rootOffset: {x: 0, y: 1.4510409, z: 0.6010407}
+      rootTilt: {x: 225, y: 0, z: 0}
+      ease: 0
+    - time: 0.255
+      body: {x: 40, y: 0, z: 0}
+      head: {x: 30, y: 0, z: 0}
+      armL: {x: -70, y: 0, z: -10}
+      armR: {x: -70, y: 0, z: 10}
+      legL: {x: -80, y: 0, z: 0}
+      legR: {x: -80, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0.85, z: 0.85}
+      rootTilt: {x: 270, y: 0, z: 0}
+      ease: 0
+    - time: 0.2975
+      body: {x: 40, y: 0, z: 0}
+      head: {x: 30, y: 0, z: 0}
+      armL: {x: -70, y: 0, z: -10}
+      armR: {x: -70, y: 0, z: 10}
+      legL: {x: -80, y: 0, z: 0}
+      legR: {x: -80, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0.24895935, z: 0.6010409}
+      rootTilt: {x: 315, y: 0, z: 0}
+      ease: 0
+    - time: 0.34
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: -0.00000014861872}
+      rootTilt: {x: 360, y: 0, z: 0}
+      ease: 0
+  - id: leap
+    duration: 0.5
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.07
+      body: {x: 20, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 20, y: 0, z: -10}
+      armR: {x: 20, y: 0, z: 10}
+      legL: {x: -30, y: 0, z: 0}
+      legR: {x: -30, y: 0, z: 0}
+      rootOffset: {x: 0, y: -0.12, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.18
+      body: {x: -6, y: 0, z: 0}
+      head: {x: -10, y: 0, z: 0}
+      armL: {x: -165, y: 0, z: -25}
+      armR: {x: -165, y: 0, z: 25}
+      legL: {x: 12, y: 0, z: 0}
+      legR: {x: -20, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.34
+      body: {x: 12, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -120, y: 0, z: -40}
+      armR: {x: -120, y: 0, z: 40}
+      legL: {x: -50, y: 0, z: 0}
+      legR: {x: -40, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.44
+      body: {x: 24, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -40, y: 0, z: -50}
+      armR: {x: -40, y: 0, z: 50}
+      legL: {x: -35, y: 0, z: 0}
+      legR: {x: 20, y: 0, z: 0}
+      rootOffset: {x: 0, y: -0.14, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 1
+    - time: 0.5
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+  - id: cast
+    duration: 0.4
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.13
+      body: {x: -10, y: 0, z: 0}
+      head: {x: -12, y: 0, z: 0}
+      armL: {x: -150, y: 0, z: -24}
+      armR: {x: -150, y: 0, z: 24}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.2
+      body: {x: 14, y: 0, z: 0}
+      head: {x: 6, y: 0, z: 0}
+      armL: {x: -80, y: 0, z: -70}
+      armR: {x: -80, y: 0, z: 70}
+      legL: {x: -10, y: 0, z: 0}
+      legR: {x: 10, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 4
+    - time: 0.3
+      body: {x: 10, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -70, y: 0, z: -64}
+      armR: {x: -70, y: 0, z: 64}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.4
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: drink
+    duration: 0.45
+    loop: 0
+    upperBodyOnly: 1
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.15
+      body: {x: 0, y: 0, z: 0}
+      head: {x: -22, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: -150, y: 0, z: -22}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.33
+      body: {x: 0, y: 0, z: 0}
+      head: {x: -26, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: -155, y: 0, z: -24}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.45
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: hit_light
+    duration: 0.2
+    loop: 0
+    upperBodyOnly: 1
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.05
+      body: {x: -10, y: 0, z: 0}
+      head: {x: -12, y: 0, z: 0}
+      armL: {x: -20, y: 0, z: -18}
+      armR: {x: -20, y: 0, z: 18}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.2
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: hit_heavy
+    duration: 0.32
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.06
+      body: {x: -14, y: 0, z: 0}
+      head: {x: -18, y: 0, z: 0}
+      armL: {x: -30, y: 0, z: -40}
+      armR: {x: -30, y: 0, z: 40}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: -12, y: 0, z: 0}
+      ease: 2
+    - time: 0.32
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: flinch
+    duration: 0.36
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.06
+      body: {x: -16, y: 8, z: 0}
+      head: {x: -20, y: 0, z: 0}
+      armL: {x: -40, y: 0, z: -30}
+      armR: {x: -40, y: 0, z: 30}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: -10, y: 0, z: 0}
+      ease: 2
+    - time: 0.36
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: death
+    duration: 0.6
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.3
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.18
+      body: {x: -10, y: 0, z: 0}
+      head: {x: -20, y: 0, z: 0}
+      armL: {x: -60, y: 0, z: -40}
+      armR: {x: -60, y: 0, z: 40}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: -20, y: 0, z: 0}
+      ease: 2
+    - time: 0.6
+      body: {x: 0, y: 0, z: 0}
+      head: {x: -10, y: 0, z: 0}
+      armL: {x: -150, y: 0, z: -30}
+      armR: {x: -150, y: 0, z: 30}
+      legL: {x: -10, y: 0, z: 0}
+      legR: {x: 8, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0.12, z: 0}
+      rootTilt: {x: -86, y: 0, z: 0}
+      ease: 1
+  - id: stunned
+    duration: 0.9
+    loop: 1
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 4, y: 0, z: 0}
+      head: {x: 10, y: -14, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.45
+      body: {x: 4, y: 0, z: 0}
+      head: {x: 10, y: 14, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.9
+      body: {x: 4, y: 0, z: 0}
+      head: {x: 10, y: -14, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: spawn
+    duration: 0.7
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -150, y: 0, z: -20}
+      armR: {x: -150, y: 0, z: 20}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: -1.9, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.55
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -120, y: 0, z: -20}
+      armR: {x: -120, y: 0, z: 20}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0.05, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.7
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: burrowed
+    duration: 0.1
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.001
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: -2.4, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.1
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: -2.4, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: emerge
+    duration: 0.8
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: -2.4, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.8
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 4
+  - id: zombie_attack
+    duration: 1
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.5
+      body: {x: -10, y: 0, z: 0}
+      head: {x: -6, y: 0, z: 0}
+      armL: {x: -160, y: 0, z: -10}
+      armR: {x: -160, y: 0, z: 10}
+      legL: {x: -10, y: 0, z: 0}
+      legR: {x: 10, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.6
+      body: {x: 20, y: 0, z: 0}
+      head: {x: 10, y: 0, z: 0}
+      armL: {x: -62, y: 0, z: -6}
+      armR: {x: -62, y: 0, z: 6}
+      legL: {x: -24, y: 0, z: 0}
+      legR: {x: 16, y: 0, z: 0}
+      rootOffset: {x: 0, y: -0.04, z: 0.1}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 1
+    - time: 0.78
+      body: {x: 16, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -55, y: 0, z: -6}
+      armR: {x: -55, y: 0, z: 6}
+      legL: {x: -20, y: 0, z: 0}
+      legR: {x: 14, y: 0, z: 0}
+      rootOffset: {x: 0, y: -0.03, z: 0.08}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 1
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: brute_swipe
+    duration: 1.1
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.5
+      body: {x: 4, y: 42, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -40, y: 0, z: -20}
+      armR: {x: -130, y: 0, z: 74}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 0.62
+      body: {x: 12, y: -40, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -30, y: 0, z: -30}
+      armR: {x: -80, y: 0, z: -40}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 1
+    - time: 0.85
+      body: {x: 10, y: -44, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: -66, y: 0, z: -46}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 1.1
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: brute_slam
+    duration: 1.7
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 1.05
+      body: {x: -18, y: 0, z: 0}
+      head: {x: -14, y: 0, z: 0}
+      armL: {x: -178, y: 0, z: -8}
+      armR: {x: -178, y: 0, z: 8}
+      legL: {x: -8, y: 0, z: 0}
+      legR: {x: 8, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0.12, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 1.18
+      body: {x: 34, y: 0, z: 0}
+      head: {x: 14, y: 0, z: 0}
+      armL: {x: -36, y: 0, z: -4}
+      armR: {x: -36, y: 0, z: 4}
+      legL: {x: -30, y: 0, z: 0}
+      legR: {x: 22, y: 0, z: 0}
+      rootOffset: {x: 0, y: -0.2, z: 0.1}
+      rootTilt: {x: 8, y: 0, z: 0}
+      ease: 1
+    - time: 1.45
+      body: {x: 30, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: -34, y: 0, z: -4}
+      armR: {x: -34, y: 0, z: 4}
+      legL: {x: -28, y: 0, z: 0}
+      legR: {x: 20, y: 0, z: 0}
+      rootOffset: {x: 0, y: -0.18, z: 0.08}
+      rootTilt: {x: 6, y: 0, z: 0}
+      ease: 3
+    - time: 1.7
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: spit_windup
+    duration: 1
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.8
+      body: {x: -18, y: 0, z: 0}
+      head: {x: -24, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
+    - time: 1
+      body: {x: -20, y: 0, z: 0}
+      head: {x: -28, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+  - id: spit
+    duration: 0.4
+    loop: 0
+    upperBodyOnly: 0
+    blendIn: 0.05
+    blendOut: 0.12
+    keys:
+    - time: 0
+      body: {x: -20, y: 0, z: 0}
+      head: {x: -28, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 3
+    - time: 0.08
+      body: {x: 22, y: 0, z: 0}
+      head: {x: 30, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 1
+    - time: 0.4
+      body: {x: 0, y: 0, z: 0}
+      head: {x: 0, y: 0, z: 0}
+      armL: {x: 0, y: 0, z: -4}
+      armR: {x: 0, y: 0, z: 4}
+      legL: {x: 0, y: 0, z: 0}
+      legR: {x: 0, y: 0, z: 0}
+      rootOffset: {x: 0, y: 0, z: 0}
+      rootTilt: {x: 0, y: 0, z: 0}
+      ease: 2
